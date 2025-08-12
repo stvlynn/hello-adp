@@ -1,0 +1,12 @@
+{
+    "icon":"home-4-line",
+    "pages": [
+        "index",
+        "quickstart",
+        "contributing",
+        "workflow",
+        "knowledge-base",
+        "others"
+    ],
+    "defaultOpen": true
+}

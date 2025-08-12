@@ -1,0 +1,8 @@
+{
+    "title": "其他",
+    "icon": "more-line",
+    "defaultOpen": true,
+    "pages": [
+        "adp-ui"
+    ]
+}

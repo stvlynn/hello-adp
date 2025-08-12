@@ -1,0 +1,8 @@
+{
+    "title": "Playground",
+    "icon": "run-line",
+    "defaultOpen": true,
+    "pages": [
+        "podcast"
+    ]
+} 

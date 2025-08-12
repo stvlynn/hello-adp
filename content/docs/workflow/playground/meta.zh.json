@@ -1,0 +1,8 @@
+{
+    "title": "体验区",
+    "icon": "run-line",
+    "defaultOpen": true,
+    "pages": [
+        "podcast"
+    ]
+} 
