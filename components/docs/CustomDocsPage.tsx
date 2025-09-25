@@ -11,12 +11,7 @@ export default function CustomDocsPage({
   authorInfo,
   ...props
 }: CustomDocsPageProps) {
-  // 调试信息
-  console.log('CustomDocsPage - authorInfo:', authorInfo);
-  console.log('CustomDocsPage - toc:', props.toc);
-  console.log('CustomDocsPage - tableOfContent:', props.tableOfContent);
-  
-  // 自定义TOC选项，在TOC头部添加作者信息
+  // 将作者展示在 Toc 头部，便于与文档内容关联
   const customTocOptions = authorInfo ? {
     ...props.tableOfContent,
     header: (

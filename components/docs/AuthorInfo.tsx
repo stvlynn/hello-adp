@@ -10,17 +10,12 @@ export interface AuthorInfoProps {
 }
 
 export function AuthorInfo({ author, avatar, githubUsername, xUsername }: AuthorInfoProps) {
-  // 调试信息
-  console.log('AuthorInfo - props:', { author, avatar, githubUsername, xUsername });
-  
   if (!author && !githubUsername && !xUsername) {
-    console.log('AuthorInfo - no author info, returning null');
     return null;
   }
 
   // 如果有GitHub用户名但没有头像，使用GitHub头像
   const avatarUrl = avatar || (githubUsername ? `https://avatars.githubusercontent.com/${githubUsername}` : undefined);
-  console.log('AuthorInfo - avatarUrl:', avatarUrl);
 
   return (
     <div className="flex flex-col items-center gap-2">

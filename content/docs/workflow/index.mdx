@@ -1,69 +1,69 @@
 ---
-title: ADP 工作流
-description: 了解 ADP 工作流开发
+title: ADP Workflows
+description: Understand how to build workflows with ADP.
 enableComments: true
 author: "Steven Lynn"
 github_username: "stvlynn"
 x_username: "Stv_Lynn"
 ---
 
-## 🤔 ADP 工作流的统一设计
+## 🤔 Why ADP Uses a Unified Workflow Design
 
-与传统的智能体开发平台不同，**腾讯云智能体开发平台（ADP）采用统一的工作流设计，无需区分聊天流和工作流**。这种设计理念大大简化了开发流程，让开发者能够更专注于业务逻辑的实现。
+Unlike traditional agent platforms, the Tencent Cloud Agent Development Platform (ADP) relies on a single workflow model—no need to distinguish between chat flows and workflow builders. This unified approach simplifies implementation so you can focus on real business logic.
 
-### 🎯 核心优势
+### 🎯 Core Advantages
 
-**统一的工作流架构**
-- ADP 将对话交互和业务处理融合在同一个工作流中
-- 内置 Agent 全局监控节点，智能处理对话流程
-- 既能支持灵活的多轮对话，又能确保精准的流程执行
+**Unified workflow architecture**
+- Conversation handling and business processing run inside the same workflow
+- A built-in global agent node watches the conversation and orchestrates state
+- Supports flexible multi-turn dialogs while ensuring precise flow execution
 
-**智能对话管理**
-- 所有与工作流相关的对话都经过统一的 Agent 处理
-- Agent 根据用户对话内容智能跳转到对应节点
-- 全局识别退出意图和寒暄意图，提供自然的人机交互
+**Intelligent conversation management**
+- Every workflow-related message is routed through the same agent
+- The agent jumps to the right node based on user intent and context
+- Exit and chit-chat intents are understood globally for natural UX
 
-### 🔧 技术特点
+### 🔧 Technical Highlights
 
-**灵活的对话交互**
-- 支持多轮对话，系统自动分析信息完整性
-- 智能生成反问澄清话术，引导用户提供必要信息
-- 支持灵活的节点跳转，无需预设固定的对话路径
+**Flexible dialog orchestration**
+- Multi-turn conversations with automatic completeness analysis
+- Smart clarifying prompts guide users to deliver required details
+- Conditional routing between nodes without pre-baked dialog trees
 
-**强大的节点系统**
-- **信息收集类节点**：参数提取、选项卡等，用于收集用户信息
-- **信息处理类节点**：大模型、代码、工具等，用于处理业务逻辑
-- **基础节点**：开始、结束、条件判断等，控制工作流流程
+**Powerful node system**
+- **Information collection**: parameter extraction, selector cards, and more
+- **Information processing**: large-model calls, code blocks, and tool invocations
+- **Foundational nodes**: start, end, branching, and other flow controls
 
-### 🌟 应用场景
+### 🌟 Use Cases
 
-ADP 工作流适用于各种复杂的业务场景：
+ADP workflows shine in complex business scenarios:
 
-**开发票场景**
-- 收集开票信息（抬头、税号等）
-- 通过大模型进行信息归一化
-- 调用工具验证信息并生成发票
+**Invoice issuance**
+- Collect tax information such as company name and identification numbers
+- Normalize inputs with a large language model
+- Call external services to validate and generate invoices
 
-**案件办理场景**
-- 收集案件关键信息
-- 基于逻辑判断进行不同处理
-- 录入最终办理结果
+**Case processing**
+- Gather key facts from customers or field agents
+- Branch logic based on conditions and status tracking
+- Save the final resolution into downstream systems
 
-**患者信息查询场景**
-- 结合患者身份信息查询病例
-- 对病例信息进行摘要总结
-- 基于病例信息进行智能问答
+**Patient information queries**
+- Combine identity data with case records for retrieval
+- Summarize case files automatically
+- Provide intelligent Q&A grounded in medical history
 
-## 开始使用
+## Getting Started
 
-### 轻松编码：构建最小可行产品(MVP)
+### Ship an MVP with minimal coding
 
 <Cards>
-   <Card 
+  <Card 
     href="./workflow/twitter-mbti-receipt" 
-    title="构建MVP：前端与后端"
+    title="Build an MVP: Frontend + Backend"
   >
-  <p>使用Dify和Windsurf的无代码之旅</p>
-    <img src="https://s2.loli.net/2025/05/12/bDNACQq2Stp4L76.png" alt="Twitter MBTI 个性分析" />
-    </Card>
+    <p>No-code journey powered by Dify and Windsurf.</p>
+    <img src="https://s2.loli.net/2025/05/12/bDNACQq2Stp4L76.png" alt="Twitter MBTI analysis" />
+  </Card>
 </Cards>
