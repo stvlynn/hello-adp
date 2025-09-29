@@ -144,51 +144,6 @@ For plugin documentation with GitHub repository and Marketplace links, use the f
 ---
 ```
 
-## 4. DSL File Download Cards Format
-
-For providing users with DSL file downloads, use the following format:
-
-### English
-```jsx
-<Cards>
-  <Card 
-    icon={<i className="ri-flow-chart" />} 
-    href="https://discord.gg/your-invite-link" 
-    title="Get the workflow"
-  >
-  <p>Join FirstLab to get DSL file</p>
-    <img src="https://s2.loli.net/2025/05/15/h2qntU94eHZyBXr.png" alt="Workflow Image" />
-  </Card>
-</Cards>
-```
-
-### Chinese (zh)
-```jsx
-<Cards>
-  <Card 
-    icon={<i className="ri-flow-chart" />} 
-    href="https://discord.gg/your-invite-link" 
-    title="获取工作流"
-  >
-  <p>加入 FirstLab 获取 DSL 文件</p>
-    <img src="https://s2.loli.net/2025/05/15/h2qntU94eHZyBXr.png" alt="工作流图片" />
-  </Card>
-</Cards>
-```
-
-### Japanese (ja)
-```jsx
-<Cards>
-  <Card 
-    icon={<i className="ri-flow-chart" />} 
-    href="https://discord.gg/your-invite-link" 
-    title="ワークフローを入手する"
-  >
-  <p>DSLファイルを入手するには、FirstLabに参加してください</p>
-    <img src="https://s2.loli.net/2025/05/15/h2qntU94eHZyBXr.png" alt="ワークフロー画像" />
-  </Card>
-</Cards>
-```
 
 ## 5. Code Block Format
 

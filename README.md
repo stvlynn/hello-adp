@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  A FirstLab project designed to help newcomers quickly learn Tencent Cloud Agent Development Platform (ADP) through best practices.
+  A project designed to help newcomers quickly learn Tencent Cloud Agent Development Platform (ADP) through best practices.
 </p>
 
 <p align="center">
@@ -18,11 +18,17 @@
 
 ## What is this?
 
-Hello ADP is a documentation website. It serves as:
+Hello ADP is a documentation of best practices for [Tencent Cloud ADP](https://adp.tencentcloud.com/). 
+
+Tencent Cloud Agent Development Platform (ADP) is an enterprise-grade platform for building agent applications. It provides a variety of AI agent development frameworks, including **LLM+RAG**, **Workflow**, and **Multi-agent**, along with API services, enabling faster and more efficient building and deployment of agent solutions across enterprise scenarios.
+
+
+
+This documentation serves as:
 
 - **Learning Resource**: A collection of tutorials and best practices for Tencent Cloud Agent Development Platform (ADP)
 - **Reference Implementation**: A modern, responsive website demonstrating Fumadocs capabilities
-- **Community Project**: A collaborative effort by FirstLab community members
+- **Community Project**: A collaborative effort by Tencent Cloud ADP community members
 - **Interactive Documentation**: Includes real-time interactive demos to help you learn by doing
 
 ## Features
@@ -44,20 +50,11 @@ Hello ADP supports multiple languages through a well-structured internationaliza
 
 The i18n rule helps ensure consistent structure across all language versions while maintaining the unique linguistic nuances of each translation.
 
-## Technology Stack
+## Join Tencent Cloud ADP Community
 
-- **Framework**: [Next.js](https://nextjs.org/)
-- **Documentation**: [Fumadocs](https://fumadocs.vercel.app/)
-- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
-- **Icons**: [Remix Icon](https://remixicon.com/)
-- **Deployment**: [Vercel](https://vercel.com/)
-
-## Join FirstLab
-
-FirstLab is a community of developers interested in AI development and Tencent Cloud ADP ecosystem.
-
-- **Discord**: Join our [Discord server](https://discord.gg/PwZDHH4mv3) to connect with other developers
-- **X (Twitter)**: Follow [@FirstLabAI](https://twitter.com/FirstLabAI) for updates
+| Twitter | Discord | Telegram | WhatsApp | YouTube |
+|---------|---------|----------|----------|---------|
+| [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/TencentCloudADP) | [![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/QjqhkHQVVM) | [![Telegram](https://img.shields.io/badge/Telegram-0088CC?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/tencentcloudadp) | [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/JVY58EeSFU8I82ZzN49PK6?mode=ems_copy_c) | [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@tencentcloudadp) |
 
 ## Project Structure
 
@@ -86,11 +83,3 @@ Want to contribute? Check out our [contribution guidelines](content/docs/contrib
 ## License
 
 This project is licensed under [CC-BY-SA-4.0](./LICENSE).
-
-## Support
-
-If you find this project helpful, consider:
-
-- Starring the repository ⭐
-- Sharing it with others who might benefit
-- [Buying me a coffee](https://www.buymeacoffee.com/stvlynn) ☕
